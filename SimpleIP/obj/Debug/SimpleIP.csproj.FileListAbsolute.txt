@@ -1,0 +1,8 @@
+F:\Ivan\Projects\C#\VS\SimpleIP\SimpleIP\bin\Debug\SimpleIP.exe.config
+F:\Ivan\Projects\C#\VS\SimpleIP\SimpleIP\bin\Debug\SimpleIP.exe
+F:\Ivan\Projects\C#\VS\SimpleIP\SimpleIP\bin\Debug\SimpleIP.pdb
+F:\Ivan\Projects\C#\VS\SimpleIP\SimpleIP\obj\Debug\SimpleIP.Form1.resources
+F:\Ivan\Projects\C#\VS\SimpleIP\SimpleIP\obj\Debug\SimpleIP.Properties.Resources.resources
+F:\Ivan\Projects\C#\VS\SimpleIP\SimpleIP\obj\Debug\SimpleIP.csproj.GenerateResource.Cache
+F:\Ivan\Projects\C#\VS\SimpleIP\SimpleIP\obj\Debug\SimpleIP.exe
+F:\Ivan\Projects\C#\VS\SimpleIP\SimpleIP\obj\Debug\SimpleIP.pdb
