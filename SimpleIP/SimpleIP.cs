@@ -569,12 +569,19 @@ namespace SimpleIP {
 			UdpClient _client;
 
 			UDPClient(int port) {
-			
 				//IPEndPoint endPoint = new IPEndPoint();
-
 				_client = new UdpClient(port); 
+			}
+			UDPClient() {
+				//IPEndPoint endPoint = new IPEndPoint();
+				_client = new UdpClient();
+			}
+
+			public void SetPort(int port) {
+				
 
 			}
+
 		}
 	#endregion
 }

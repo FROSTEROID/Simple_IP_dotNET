@@ -6,3 +6,11 @@ F:\Ivan\Projects\C#\VS\SimpleIP\SimpleIP\obj\Debug\SimpleIP.Properties.Resources
 F:\Ivan\Projects\C#\VS\SimpleIP\SimpleIP\obj\Debug\SimpleIP.csproj.GenerateResource.Cache
 F:\Ivan\Projects\C#\VS\SimpleIP\SimpleIP\obj\Debug\SimpleIP.exe
 F:\Ivan\Projects\C#\VS\SimpleIP\SimpleIP\obj\Debug\SimpleIP.pdb
+F:\Ivan\Projects\C#\VS\Simple_IP_dotNET\SimpleIP\bin\Debug\SimpleIP.exe.config
+F:\Ivan\Projects\C#\VS\Simple_IP_dotNET\SimpleIP\obj\Debug\SimpleIP.exe
+F:\Ivan\Projects\C#\VS\Simple_IP_dotNET\SimpleIP\obj\Debug\SimpleIP.pdb
+F:\Ivan\Projects\C#\VS\Simple_IP_dotNET\SimpleIP\obj\Debug\SimpleIP.SimpleIPTestingForm.resources
+F:\Ivan\Projects\C#\VS\Simple_IP_dotNET\SimpleIP\obj\Debug\SimpleIP.Properties.Resources.resources
+F:\Ivan\Projects\C#\VS\Simple_IP_dotNET\SimpleIP\obj\Debug\SimpleIP.csproj.GenerateResource.Cache
+F:\Ivan\Projects\C#\VS\Simple_IP_dotNET\SimpleIP\bin\Debug\SimpleIP.exe
+F:\Ivan\Projects\C#\VS\Simple_IP_dotNET\SimpleIP\bin\Debug\SimpleIP.pdb
