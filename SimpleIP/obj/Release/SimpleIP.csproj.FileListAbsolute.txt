@@ -1,0 +1,8 @@
+F:\Ivan\Projects\C#\VS\Simple_IP_dotNET\SimpleIP\bin\Release\SimpleIP.exe.config
+F:\Ivan\Projects\C#\VS\Simple_IP_dotNET\SimpleIP\bin\Release\SimpleIP.exe
+F:\Ivan\Projects\C#\VS\Simple_IP_dotNET\SimpleIP\bin\Release\SimpleIP.pdb
+F:\Ivan\Projects\C#\VS\Simple_IP_dotNET\SimpleIP\obj\Release\SimpleIP.SimpleIPTestingForm.resources
+F:\Ivan\Projects\C#\VS\Simple_IP_dotNET\SimpleIP\obj\Release\SimpleIP.Properties.Resources.resources
+F:\Ivan\Projects\C#\VS\Simple_IP_dotNET\SimpleIP\obj\Release\SimpleIP.csproj.GenerateResource.Cache
+F:\Ivan\Projects\C#\VS\Simple_IP_dotNET\SimpleIP\obj\Release\SimpleIP.exe
+F:\Ivan\Projects\C#\VS\Simple_IP_dotNET\SimpleIP\obj\Release\SimpleIP.pdb

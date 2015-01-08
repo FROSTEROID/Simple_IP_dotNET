@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing.Text;
 using System.Text; // Encoding is there
 using System.Windows.Forms; //Timer is there
 
@@ -9,14 +10,14 @@ using System.Net.Sockets;
 /// Пространство заключает в себе классы, значительно упрощающие работу с .Net-реализацией IP-коммуникации.
 /// Для работы с ними также понадобится использование пространства System.Net, чтобы отправлять аргумент типа IPAddress.
 /// (UPD: Теперь можно пихать стринги. Но правил	ьность форматирования не проверяется)
-/// The namespace is containing classes that make it easier to manipulate .Net classes for TCP/IP-communication.
+/// The namespace is containing classes that make it easier to manipulate .Net classes for IP-communication.
 /// You also need to use System.Net in Your code to send to classes IPAddress-arguments. 
 /// (UPD: now they can accept IP as a string, but formatting isn't checked)
 /// </summary>
 namespace SimpleIP {
 	/// <summary>
 	/// Свой нескушный тип обработчика события для обработки принятия сообщения.
-	/// (Да, свой, с интами и байтами!)
+	/// (Да, свой, с делегатом и параметрами!)
 	/// </summary>
 	public class IPMessageEventArgs{
 		public IPMessageEventArgs(byte[] msg, int ln){
@@ -25,7 +26,8 @@ namespace SimpleIP {
 		}
 		public byte[] Message;
 		public int Length;
-	}public delegate void IPMessageDelegate(object sender, IPMessageEventArgs e);
+	}
+	public delegate void IPMessageDelegate(object sender, IPMessageEventArgs e);
 
 	#region TCP
 		/// <summary>
@@ -566,20 +568,41 @@ namespace SimpleIP {
 
 	#region UDP
 		class UDPClient{
-			UdpClient _client;
 
-			UDPClient(int port) {
-				//IPEndPoint endPoint = new IPEndPoint();
-				_client = new UdpClient(port); 
+			#region	Constants
+			public const String DEFAULT_IP_ADDRESS = "127.0.0.1";
+			public const int DEFAULT_PORT = 65000;
+			#endregion
+
+			#region Parameters
+			private int _destPort;
+			private IPAddress _destIP;
+			private int _listenPort;
+			private IPAddress _listenIP;
+			#endregion
+
+			#region Serving objects
+			private UdpClient _client;
+			#endregion
+
+			#region Structing
+			public UDPClient() {
+				Initialise();
 			}
-			UDPClient() {
-				//IPEndPoint endPoint = new IPEndPoint();
-				_client = new UdpClient();
+			public UDPClient(int destinationPort) {
+				Initialise();
 			}
+			public UDPClient(String destinataionIPAddress, int destinationPort) {
+				Initialise();
+			}
+
+			private void Initialise() {
+				_client = new UdpClient(new IPEndPoint(_destIP, _destPort));
+			}
+			#endregion
 
 			public void SetPort(int port) {
 				
-
 			}
 
 		}
